@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<!--<link href="css/bootstrap-reboot.css" rel="stylesheet">-->
+		<link href="css/mypage.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/time.js" ></script>
+		<!--<script type="text/javascript" src="js/demo.js" ></script>-->
+	</head>
+
+	<body>
+		<!--<div id="gg">
+		    <div id="close">
+		        <span>X</span>
+		    </div>
+		    <div id="txt"> 
+		        <p>2021年7月1日是中国共产党成立100周年纪念日。2021年3月23日，中宣部介绍中国共产党成立100周年庆祝活动八项主要内容 [12]  。3月24日，中宣部发布中国共产党成立100周年庆祝活动标识 [13]  。4月20日，由中共中央宣传部、文化和旅游部、中国文学艺术界联合会共同举办的庆祝中国共产党成立100周年优秀舞台艺术作品展演开幕。</p>
+		    </div>
+		</div>-->
+		<div class="container">
+			<!--头部-->
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="img/hand.jpg" class="img-0"/>
+					<a>志愿者服务网<a>
+				</div>
+				<div class="col-lg-6" id="head-right">
+					<a href="http://127.0.0.1:8020/Web%e5%bc%80%e5%8f%91/index.html">请登录!</a>
+					<a>|</a>
+					<a href="#">注册</a>
+					<img src="img/4.jpg" class="img-4"/>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-lg-3 ">
+						<h3 style="margin: 10px auto;">绵阳职业技术学院&emsp;软件204</h3>
+					<!--style="background-color: red;"-->	
+					</div>
+					<div class="col-lg-4"> <!--style="background-color: red;"-->
+						<div class="row">
+							<div style="col-lg-12">
+								<nav class="navbar navbar-light bg-light">
+								  	<div class="form-inline">
+									    <input class=" mr-sm-2" type="search" placeholder="Search">
+									    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+									    
+				 					</form>
+								</nav>
+							</div>
+						</div>
+					</div>
+					北京时间:<div id="time"></div>
+												
+					
+			</div>
+			<!--导航条-->
+			<nav>
+			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+			    <a class="nav-link active"  data-toggle="tab" href="#nav-home" role="tab"  aria-selected="true">首页</a>
+			    <a class="nav-link"  data-toggle="tab" href="#one" role="tab"  aria-selected="false">志愿风采</a>
+			    <a class="nav-link"  data-toggle="tab" href="#two" role="tab"  aria-selected="false">志愿之星</a>
+			    <a class="nav-link"  data-toggle="tab" href="#three" role="tab"  aria-selected="false">志愿项目</a>
+			    <a class="nav-link"  data-toggle="tab" href="#four" role="tab"  aria-selected="false">志愿队伍</a>
+			    <a class="nav-link"  data-toggle="tab" href="#five" role="tab"  aria-selected="false">个人中心</a>
+			  </div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<!--首页内容-->
+			<div class="tab-pane fade show active" id="nav-home">
+			  	<div class="row bg-0">
+			  		<div class="col-lg-6">
+			  			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img src="img/0.jpg" class="d-block w-100" alt="...">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5>First slide label</h5>
+						        <p>Some representative placeholder content for the first slide.</p>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="img/1.jpg" class="d-block w-100" alt="...">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5>Second slide label</h5>
+						        <p>Some representative placeholder content for the second slide.</p>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="img/2.jpg" class="d-block w-100" alt="...">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5>Third slide label</h5>
+						        <p>Some representative placeholder content for the third slide.</p>
+						      </div>
+						    </div>
+						  </div>
+						  <!--左右切换图标-->
+						  <!--<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"  data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </button>
+						  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"  data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </button>-->
+						</div>
+					</div>
+			  		<div class="col-lg-6">
+						<div class="row bg-0">
+							<div class="col-sm-12">
+								<img src="img/5.jpg" class="img-5"/>
+								<a style="font-size: 30px;margin:10px -30px;">信息动态</a>
+								<hr style="border:1px dotted;">
+							</div>
+						</div>
+						<div class="row" id="info">
+							<ul>
+								<li><a href="#"> 上海：垃圾分类志愿服务组织力争明年实现街镇...</a>&emsp;&emsp;&emsp;&emsp;<span class="t-r">2021-08-23</span></li>
+								<li><a href="#"> 共青团中央：印发《关于开展第十三届中国青年志愿...</a>&emsp;&emsp;&emsp;<span class="t-r">2021-08-23</span></li>
+								<li><a href="#">内蒙古：印发《内蒙古自治区城乡社区志愿服务站...</a>&emsp;&emsp;&emsp;<span class="t-r">2021-08-23</span></li>
+								<li><a href="#">中国科协 中央文明办：印发《关于举办首届科技志愿服...</a>&emsp;&emsp;<span class="t-r">2021-08-23</span></li>
+								<li><a href="#">贵州：《贵州省志愿服务办法（草案）》公开征求意见</a>&emsp;&emsp;&emsp;<span class="t-r">2021-08-23</span></li>
+								<li><a href="#">江西：《江西省志愿服务条例》10月起实施</a>&emsp;&emsp;&emsp;&emsp;&emsp;<span class="t-r">2021-08-23</span></li>	
+							</ul>
+						</div>
+					</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-lg-7"  style="background-color: red;">
+			  			<div class="row">
+			  				<div id="" style="float: left;width: 50%;">
+			  					<a style="font-size:30px;">消息推送</a>	
+			  				</div>
+			  				<div id="" style="float: right;width: 50%;">
+			  					<a style="font-size:30px;">志愿者活动</a>
+			  				</div>			
+			  			</div>
+			  			<div class="text">
+			  				<div id="col-left">
+			  					<ul>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  					</ul>
+			  					<span style="float: right;"><a href="#" style="color: red;">>>更多</a></span>
+			  				</div>
+			  				<div id="col-right">
+			  					<ul>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  						<li>1</li>
+			  					</ul>
+			  					<span style="float: right;"><a href="#" style="color: red;">>>更多</a></span>
+			  				</div>
+			  			</div>
+			  		</div>
+			  		<div class="col-lg-5">
+			  			<div id="row">
+			  				<img src="img/16.jpg" width="100%"/>
+			  				<h2 style="text-align: right; color: red;">奉献 友爱 互助 进步</h2>
+			  				<h4 style="text-align: right; color: red;">争做优秀青年志愿者</h4>
+			  				<span style="background-color: red;font-size: 15px; margin-top:20px;float: left;">岁月无常行路难助人乐善志如磐扶危济贫当伸手送碳添薪不畏寒</span>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+			  <!--志愿风采内容-->
+			<div class="tab-pane fade" id="one">
+			  			<div class="row">
+			  				<div class="col-lg-8 col-sm-6">
+							<div class="accordion" id="accordionExample">
+							  <div class="card">
+							    <div class="card-header" id="headingOne">
+							      <h2 class="mb-0">
+							        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							        	<a>1. 环保志愿服务</a>
+							        </button>
+							      </h2>
+							    </div>
+							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							      <div class="card-body">
+							      	<a>组织开展以改善社区环境卫生为主要内容的志愿活动;组织志愿者广泛参与卫生大扫除、清洗母亲河一-竹排江、清洗乱涂画和“小广告”、清理卫生死角、捡拾垃圾、果皮、纸屑等活动;组织志愿者植树、美化绿化小区。</a>
+							     	 <br>
+							     	 <a><img src="img/6.jpg" width="49%"/></a>
+							      	<a><img src="img/7.jpg" width="49%"/></a>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" id="headingTwo">
+							      <h2 class="mb-0">
+							        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							       	  2.计划生育志愿服务	
+							        </button>
+							      </h2>
+							    </div>
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							      <div class="card-body">
+									<a>组织开展自我教育、自我管理、自我服务的形式为广大育龄居民提供服务;宣传普及人口理论、计划生育政策、法规;利用咨询服务阵地，开展综合教育、指导知情选择;满足广大育龄群众在生殖、生理、健康方面的需求。</a>
+							      	<br>
+							     	 <a><img src="img/8.jpg" width="49%"/></a>
+							      	<a><img src="img/9.jpg" width="49%"/></a>							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" id="headingThree">
+							      <h2 class="mb-0">
+							        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							          3.流动人口志愿服务
+							        </button>
+							      </h2>
+							    </div>
+							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							      <div class="card-body">
+							      	<a>组织开展在社区内流动人口以节日慰问、日常帮扶、帮助就业等活动为主要内容的志愿服务活动</a>
+							      	<br>
+							     	 <a><img src="img/10.jpg" width="49%"/></a>
+							      	<a><img src="img/11.jpg" width="49%"/></a>
+							      </div>
+							    </div>
+							  </div>
+							   <div class="card">
+							    <div class="card-header" id="headingFour">
+							      <h2 class="mb-0">
+							        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+							          4.党员义工志愿服务
+							        </button>
+							      </h2>
+							    </div>
+							    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							      <div class="card-body">
+							      	<a>以社区居民为对象，组织开展政策宣传、信息咨询、健康义诊、免费体检、等便民、助民活动。</a>
+							      	<br>
+							     	 <a><img src="img/12.jpg" width="49%"/></a>
+							      	<a><img src="img/13.jpg" width="49%"/></a>
+							      </div>
+							    </div>
+							  </div>
+							   <div class="card">
+							    <div class="card-header" id="headingFive">
+							      <h2 class="mb-0">
+							        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+							         5.助残志愿服务
+							        </button>
+							      </h2>
+							    </div>
+							    <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							      <div class="card-body">
+							      	<a>组织开展以残疾困难居民为主要对象以节 日慰问、临时救济、日常帮扶、帮助就业等活动为主要内容的帮扶服务。</a>
+							      	<br>
+							     	 <a><img src="img/14.jpg" width="49%"/></a>
+							      	<a><img src="img/15.jpg" width="49%"/></a>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="wrapper">
+								<div class="card" style="width: 20rem;">
+									<div class="hr"></div>
+									<div width=100px height="1px" style="margin: -10px auto;">
+									<h4 style="float: right;">热点图片</h4>
+								</div>
+								  <img src="img/16.jpg" class="card-img-top" alt="...">
+								  <div class="card-body">
+								    <p class="card-text">8日下午，志愿者代表、70岁的回族老党员王兰花告诉总书记,社会主义是干出来的，各族群众要一起努力，志愿者要充分发挥作用，谢谢你们的努力和贡献。</p>
+								  </div>
+								</div>
+								<div class="card" style="width: 20rem;">
+								  <img src="img/17.jpg" class="card-img-top" alt="...">
+								  <div class="card-body">
+								    <p class="card-text">“大家抓紧时间，6点前，防疫物资全部送到位。”8月16日凌晨5点，扬州广陵区曲江街道五里庙社区临时流动党支部物资保障组党员志愿者梅世杰，与其他组员一起，清点口罩、防护服、医用橡胶手套等防疫物资，准备赶在核酸检测开始前，配送到社区六处核酸检测点。</p>
+								  </div>
+								</div>
+								<div class="card" style="width: 20rem;">
+								  <img src="img/18.jpg" class="card-img-top" alt="...">
+								  <div class="card-body">
+								    <p class="card-text">北京市丰台区东高地街道共有60岁以上老党员5900多名，这些老党员积极参与街道组织的社区为老服务队、治安巡逻队、文化服务队等志愿服务队，辖区内老党员参与志愿活动比例近95%。社区“搭台”，老党员“唱戏”，让党员和居民共同营造和谐的社区环境，把优良传统传承给年轻人。</p>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<!--志愿之星内容-->
+			<div class="tab-pane fade" id="two">
+				<div id="box">
+							<div style="width:80px;margin: 15px auto;">
+								<span style="background-color: red;margin: 0 auto;font-size：30px">个人</span>
+								<span style="background-color: blanchedalmond;margin: 0 auto;font-size：30px">团体</span>
+							</div>		
+							
+				</div>
+				
+			</div>
+			<!--志愿项目内容-->
+			<div class="tab-pane fade" id="three">zxc</div>
+			 <!--志愿团队内容-->
+			<div class="tab-pane fade" id="four">vbn</div>
+			<!--个人中心内容-->
+			<div class="tab-pane fade" id="five">asd</div>
+			</div>
+			<!--footer底部-->
+				<div class="row">
+					<div class="col-lg-12">
+						<footer class="text-center">
+							<p>联系电话：158***54747&emsp;地址：四川省绵阳市游仙区仙人路一段三十二号行政楼一楼</p>
+							<p>&copy;2021绵阳职业技术学院 版权所有 ICP许可证号 粤b2-20040497</p>
+						</footer>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

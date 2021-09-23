@@ -1,0 +1,91 @@
+body{
+	background-image: url(../img/bgground.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed ;
+}
+.box{
+	width: 1000px;
+	height: 500px;
+	float: left;
+	background-color: ;
+	border-radius:40px ;
+}
+.head{
+	color: black;
+	text-align: center;
+	/*background-color: bisque;*/
+	width: 1000px;
+	margin: 0 auto;
+}
+.img{
+	width: 700px;
+	height: 400px;
+	float: left;
+	/*background-color: deepskyblue;*/
+}
+.input{
+	width: 450px;
+	height: 350px;
+	margin: -400px auto;
+	float:right;
+	background-color: whitesmoke
+}
+.name{
+	width: 300px;
+	height: 35px;
+	margin: 0 auto;
+	text-align: end;
+	margin: 20px 100px;
+	border-radius: 30px;
+	vertical-align:middle;
+	/*background-color:whitesmoke;*/
+}
+.password{
+	width: 300px;
+	height: 35px;
+	margin: 0 auto;
+	text-align: end;
+	margin: 35px 100px;
+	border-radius: 30px;
+	/*background-color: floralwhite;*/
+}
+.code{
+	width: 300px;
+	height: 35px;
+	margin: 0 auto;
+	text-align:left;
+	margin: 35px 100px;
+	border-radius: 30px;
+	/*background-color: floralwhite;*/
+}
+.login{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: white;
+}
+#user{
+	border-radius: 30px;
+	float: right;
+	padding: 8px 40px;
+}
+
+#pass{	
+	border-radius: 30px;
+	padding: 8px 40px;
+	float: right;
+}
+#code{	
+	border-radius: 30px;
+	padding: 8px 40px;
+	float:right;
+}
+#login{
+	background-color: aqua;
+	border-radius:30px ;
+	margin: 40px 70px;
+	padding: 10px 50px;
+	cursor: pointer;
+	/*设置指针鼠标的样式*/
+}
